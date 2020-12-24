@@ -1,0 +1,30 @@
+.container {
+	padding-top: 130px;
+}
+.list {
+	list-style-type: none;
+	padding: 10px;
+}
+li {
+	background-color: rgb(190, 147, 147);
+	border: 2px solid #eee;
+	color: #fff;
+}
+
+li:hover {
+	background-color: rgb(138, 125, 125);
+}
+li:active {
+	background-color: rgb(177, 72, 72);
+}
+.add{	
+	background-color: rgb(67, 92, 41);
+}
+
+.main {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	background-color: #000;
+}
